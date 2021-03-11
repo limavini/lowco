@@ -1,7 +1,11 @@
 import React from "react";
-
+import { Header } from "./components/Header";
 const App: React.FC = () => {
-  return <div className="bg-red-200">Hello world!</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default App;
