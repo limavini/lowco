@@ -13,7 +13,7 @@ export const MobileHeader: React.FC = () => {
       className={`md:hidden lg:hidden overflow-hidden ${menu && "h-screen"}`}
     >
       <ul className="flex items-center justify-between py-3 px-2">
-        <li className="text-gray-900 font-bold text-xl">
+        <li className="text-gray-1 font-bold text-xl">
           <a href="#placeholder">Low.co</a>
         </li>
 
