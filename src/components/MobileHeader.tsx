@@ -14,7 +14,7 @@ export const MobileHeader: React.FC = () => {
     >
       <ul className="flex items-center justify-between py-3 px-2">
         <li className="text-gray-1 font-bold text-xl">
-          <a href="#placeholder">Low.co</a>
+          <a href="#home">Low.co</a>
         </li>
 
         <li onClick={openMenu}>{menu ? <Close /> : <Menu />}</li>

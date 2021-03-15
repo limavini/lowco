@@ -3,7 +3,7 @@ export const Header: React.FC = () => {
     <nav className="hidden md:flex lg:flex md:p-9 lg:p-11">
       <ul className="flex flex-row w-screen items-center justify-between">
         <li className="text-gray-1 font-extrabold text-4xl">
-          <a href="#placeholder">Low.co</a>
+          <a href="#home">Low.co</a>
         </li>
 
         <div className="flex flex-row md:space-x-4 lg:space-x-14">

@@ -3,7 +3,10 @@ import { Card } from "./Card";
 
 export const Services: React.FC = () => (
   <>
-    <h2 className="text-2xl md:text-4xl lg:text-4xl px-10 md:px-20 lg:px-40 pb-8 md:pb-9 lg:pb-9 text-gray-1 mb-11 md:w-3/4 lg:w-2/4">
+    <h2
+      className="text-2xl md:text-4xl lg:text-4xl px-10 md:px-20 lg:px-40 pb-8 md:pb-9 lg:pb-9 text-gray-1 mb-11 md:w-3/4 lg:w-2/4"
+      id="services"
+    >
       We offer high demand services
     </h2>
 

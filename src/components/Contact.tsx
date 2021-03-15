@@ -1,7 +1,7 @@
 import { Input } from "./Input";
 
 export const Contact: React.FC = () => (
-  <div className="px-10 mb-24 md:mb-48 lg:mb-48 md:px-36 lg:px-72">
+  <div className="px-10 mb-24 md:mb-48 lg:mb-48 md:px-36 lg:px-72" id="contact">
     <h2 className="text-2xl pb-8 text-gray-1  md:text-5xl lg:text-5xl  md:w-3/4 lg:w-2/4 md:leading-normal lg:leading-normal">
       Story, emotion and purpose
     </h2>

@@ -3,7 +3,10 @@ import { ArrowRightAlt } from "@material-ui/icons";
 
 export const Business: React.FC = () => (
   <>
-    <h2 className="text-2xl md:text-4xl lg:text-4xl px-10 pb-12 md:pb-0 lg:pb-0 text-gray-1 md:w-3/4 lg:w-2/4 md:px-20 lg:px-40 ">
+    <h2
+      id="works"
+      className="text-2xl md:text-4xl lg:text-4xl px-10 pb-12 md:pb-0 lg:pb-0 text-gray-1 md:w-3/4 lg:w-2/4 md:px-20 lg:px-40 "
+    >
       Good design means good business
     </h2>
 

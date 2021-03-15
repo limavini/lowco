@@ -1,5 +1,5 @@
 export const Quote: React.FC = () => (
-  <div className="mx-2 md:px-20 lg:px-40 mb-28">
+  <div className="mx-2 md:px-20 lg:px-40 mb-28" id="clients">
     <p className="text-gray-1 text-2xl md:text-4xl lg:text-4xl leading-relaxed  lg:w-3/4">
       “Fast and outstanding results. Low.co understands their customer’s needs.
       They have a young and talented team.”
