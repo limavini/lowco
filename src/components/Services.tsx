@@ -8,9 +8,9 @@ export const Services: React.FC = () => (
     </h2>
 
     <div className="px-4 md:px-20 lg:px-40 pb-24 md:pb-48 lg:pb-48 grid grid-cols-1 gap-y-2 md:grid-cols-1 lg:grid-cols-3 md:gap-10 lg:gap-10">
-      <Card bgColor="blue" title="UI/UX Design" icon={Create} disabled />
-      <Card bgColor="green" title="Front end" icon={Code} />
-      <Card bgColor="red" title="Back end" icon={StorageRounded} disabled />
+      <Card bgColor="bg-blue" title="UI/UX Design" icon={Create} disabled />
+      <Card bgColor="bg-green" title="Front end" icon={Code} />
+      <Card bgColor="bg-red" title="Back end" icon={StorageRounded} disabled />
     </div>
   </>
 );

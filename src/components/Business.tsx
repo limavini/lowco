@@ -24,16 +24,16 @@ export const Business: React.FC = () => (
       </div>
       <div className="md:space-y-40 lg:space-y-40">
         <Application
-          bgColor="green-500"
-          bgImage="energy-dashboard"
-          category="Mobile application"
-          title="Booking system"
+          bgColor="yellow-500"
+          bgImage="gym"
+          category="Front End application"
+          title="Gym homepage"
         />
         <Application
-          bgColor="green-500"
-          bgImage="energy-dashboard"
+          bgColor="red-500"
+          bgImage="car"
           category="Front End application"
-          title="Coffee product homepage"
+          title="Car store homepage"
         />
         <a
           className=" mt-7 lg:mt-0 md:mt-0 text-blue text-lg md:text-2xl lg:text-2xl block text-left md:text-right lg:text-right"
