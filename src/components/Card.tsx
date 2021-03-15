@@ -18,7 +18,7 @@ export const Card: React.FC<Props> = ({
     ? "bg-gray-5 text-gray-3"
     : "bg-blue text-white";
   return (
-    <div className="px-8 pt-12 pb-11 rounded-3xl">
+    <div className="px-8 pt-12 pb-11 rounded-3xl hover:shadow-lg transform transition-shadow">
       <div className={`bg-${bgColor} p-5 rounded-2xl inline-block`}>
         <Icon
           className="fill-current text-white"

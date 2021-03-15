@@ -3,6 +3,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        136: "545px",
+        175: "700px",
+      },
       colors: {
         blue: {
           DEFAULT: "#2D9CDB",
