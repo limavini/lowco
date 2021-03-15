@@ -6,6 +6,6 @@ interface Props {
 export const Member: React.FC<Props> = ({ size, bgImage }) => (
   <div
     className={`${size} rounded-3xl bg-cover bg-center`}
-    style={{ backgroundImage: `url(/assets/${bgImage}.jpg)` }}
+    style={{ backgroundImage: `url(/assets/${bgImage}.webp)` }}
   ></div>
 );

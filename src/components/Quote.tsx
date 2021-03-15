@@ -8,7 +8,7 @@ export const Quote: React.FC = () => (
     <div className="grid grid-cols-4 md:grid-cols-9 lg:grid-cols-10 gap-x-10 pt-7 md:pt-9 lg:pt-9">
       <div
         className="h-16 md:h-28 lg:h-28 md:col-span-2 lg:col-span-1 rounded-lg bg-cover bg-top"
-        style={{ backgroundImage: `url(/assets/dellon.jpg)` }}
+        style={{ backgroundImage: `url(/assets/dellon.webp)` }}
       ></div>
       <div className="col-span-3 md:col-span-6 lg:col-span-9">
         <p className="text-gray-1 text-xl2 pb-2">Carlos Tran</p>

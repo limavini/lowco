@@ -17,7 +17,7 @@ export const Application: React.FC<Props> = ({
     >
       <div
         className="h-96 md:h-175 lg:h-175 transform -rotate-12 bg-center bg-cover"
-        style={{ backgroundImage: `url(/assets/${bgImage}.jpg)` }}
+        style={{ backgroundImage: `url(/assets/${bgImage}.webp)` }}
       />
     </div>
     <span className="text-gray-3 font-light text-xs md:text-sm lg:text-sm">
