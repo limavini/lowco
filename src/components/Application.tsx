@@ -13,7 +13,7 @@ export const Application: React.FC<Props> = ({
 }) => (
   <div>
     <div
-      className={`mb-3 rounded-3xl h-80 md:h-145 lg:h-136 bg-${bgColor} bg-opacity-50 overflow-hidden`}
+      className={`mb-3 rounded-3xl h-80 md:h-145 lg:h-136 ${bgColor} bg-opacity-50 overflow-hidden`}
     >
       <div
         className="h-96 md:h-175 lg:h-175 transform -rotate-12 bg-center bg-cover"

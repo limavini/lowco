@@ -13,13 +13,13 @@ export const Business: React.FC = () => (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-y-9 gap-x-2 md:gap-x-4 lg:gap-x-4 px-2 md:px-20 lg:px-40">
       <div className="md:pt-48 lg:pt-48 md:space-y-40 lg:space-y-40">
         <Application
-          bgColor="blue-500"
+          bgColor="bg-blue-500"
           bgImage="dashboard-one"
           category="Full stack application"
           title="Sales dashboard"
         />
         <Application
-          bgColor="yellow-500"
+          bgColor="bg-yellow-500"
           bgImage="starbucks-project"
           category="Front End application"
           title="Coffee product homepage"
@@ -27,13 +27,13 @@ export const Business: React.FC = () => (
       </div>
       <div className="md:space-y-40 lg:space-y-40">
         <Application
-          bgColor="yellow-500"
+          bgColor="bg-yellow-500"
           bgImage="gym"
           category="Front End application"
           title="Gym homepage"
         />
         <Application
-          bgColor="red-500"
+          bgColor="bg-red-500"
           bgImage="car"
           category="Front End application"
           title="Car store homepage"
